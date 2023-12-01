@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blazorserver", "blazorserver\blazorserver.csproj", "{4F1725EB-2603-4C84-B65D-A9D5944A2BC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "recipes", "recipes\recipes.csproj", "{0338B824-598C-4561-92C3-19887E3DD939}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blazorwasm", "blazorwasm\blazorwasm.csproj", "{E253605C-EF8C-4E3D-843A-6CC1C2DB07CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F1725EB-2603-4C84-B65D-A9D5944A2BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1725EB-2603-4C84-B65D-A9D5944A2BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1725EB-2603-4C84-B65D-A9D5944A2BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1725EB-2603-4C84-B65D-A9D5944A2BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0338B824-598C-4561-92C3-19887E3DD939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0338B824-598C-4561-92C3-19887E3DD939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0338B824-598C-4561-92C3-19887E3DD939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0338B824-598C-4561-92C3-19887E3DD939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E253605C-EF8C-4E3D-843A-6CC1C2DB07CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E253605C-EF8C-4E3D-843A-6CC1C2DB07CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E253605C-EF8C-4E3D-843A-6CC1C2DB07CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E253605C-EF8C-4E3D-843A-6CC1C2DB07CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC257557-738A-4920-ABC8-EC44C6DE2E9D}
+	EndGlobalSection
+EndGlobal
